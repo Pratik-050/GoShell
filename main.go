@@ -80,8 +80,8 @@ func main() {
 		// Remove the newline character from the end of the input
 		command = strings.TrimSpace(command)	
 				
-		// Exit the shell if the command is "exit 0"
-		if command == "exit 0" {
+		// Exit the shell if the command is "exit"
+		if command == "exit" {
 			os.Exit(0)
 		}
 		

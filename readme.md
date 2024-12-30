@@ -22,5 +22,7 @@ Prerequisites: Go 1.21 or higher
 - to run the shell
 
 ```bash
+  go mod tidy
+
   go run .
 ```
